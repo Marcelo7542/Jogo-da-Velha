@@ -112,8 +112,8 @@ botoes = [[0,0,0],
 label = Label(text=jogador + " Turno", font=('consolas',40))
 label.pack(side="top")
 
-reset_button = Button(text="reiniciar", font=('consolas',20), command=novo_jogo)
-reset_button.pack(side="top")
+botao_de_resetar = Button(text="reiniciar", font=('consolas',20), command=novo_jogo)
+botao_de_resetar.pack(side="top")
 
 frame = Frame(window)
 frame.pack()
